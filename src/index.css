@@ -38,9 +38,7 @@ body.active-modal {
   background: #f1f1f1;
   padding: 14px 28px;
   border-radius: 5px;
-  height:500px;
-  width:800px;
-  min-width: 300px;
+  width:80%;
 }
 .upper{
   display:flex;
@@ -99,30 +97,4 @@ body.active-modal {
 .upper a{
   text-decoration: none;
   color: #2072EF;
-}
-@media only screen and (max-width: 550px) {
-  .modal-content{
-    width:400px;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .modal-content{
-    width:300px;
-  }
-  .main p{
-    font-size: 14px;
-  }
-  .inside-main p{
-    font-size: 14px;
-  }
-}
-@media only screen and (max-width:768px){
-  .modal-content{
-    width: 550px;
-  }
-}
-@media only screen and (max-width:420){
-  .modal-content{
-    width: 320px;
-  }
 }
