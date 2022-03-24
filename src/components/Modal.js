@@ -30,7 +30,7 @@ const Modal=({closeModal}) =>{
   ];
   return (
         <div className="modal">
-        <div className="overlay"></div>
+        <div className="overlay" onClick={()=>closeModal(false)}></div>
         <div className="modal-content">
         <div className="upper">
         <h3>Theme Color</h3>
