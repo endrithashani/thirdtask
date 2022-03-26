@@ -38,7 +38,7 @@ body.active-modal {
   background: #f1f1f1;
   padding: 14px 28px;
   border-radius: 5px;
-  width:75%;
+  width:50%;
 }
 .upper{
   display:flex;
@@ -98,3 +98,8 @@ body.active-modal {
   text-decoration: none;
   color: #2072EF;
 }
+    @media (max-width: 400px){
+    .modal-content{
+      width: 84%;
+    }
+  }
